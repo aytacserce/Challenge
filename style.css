@@ -1,0 +1,170 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+article {
+  position: relative;
+}
+.sale {
+  position: absolute;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  left: -40px;
+  top: -20px;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+.cont {
+  border: 5px solid #444;
+  width: 750px;
+  align-self: center;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #444;
+  padding: 10px;
+}
+/* .shoe-img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 15px;
+  float: left;
+} */
+.price {
+  font-size: 14px;
+  /* float: left; */
+}
+p {
+  margin-bottom: 10px;
+}
+.grey {
+  text-transform: uppercase;
+  color: #444;
+  /* float: right; */
+}
+.readyand {
+  /* clear: float; */
+  /* margin-top: 20px; */
+}
+.link-1:link,
+.link-1:visited {
+  color: black;
+  margin-bottom: 30px;
+}
+.link-1:hover,
+.link-1:active {
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+.s-colors {
+  list-style-type: none;
+  margin-top: 20px;
+  display: flex;
+}
+.black-button {
+  background-color: black;
+  width: 18px;
+  margin-right: 10px;
+}
+.blue-button {
+  background-color: blue;
+  color: blue;
+  width: 18px;
+  margin-right: 10px;
+}
+.red-button {
+  background-color: red;
+  color: red;
+  width: 18px;
+  margin-right: 10px;
+}
+.yellow-button {
+  background-color: yellow;
+  color: yellow;
+  width: 18px;
+  margin-right: 10px;
+}
+.green-button {
+  background-color: green;
+  color: green;
+  width: 18px;
+  margin-right: 10px;
+}
+.brown-button {
+  background-color: brown;
+  color: brown;
+  width: 18px;
+  margin-right: 10px;
+}
+h2 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.details {
+  list-style: square;
+  padding: 5px;
+}
+.details li {
+  margin-left: 20px;
+  padding: 5px;
+}
+.add-button {
+  text-transform: uppercase;
+  background-color: black;
+  color: antiquewhite;
+  font-size: 23px;
+  width: 100%;
+  border: none;
+  border-top: 5px solid #000;
+  padding: 0px;
+}
+.add-button:hover {
+  background-color: antiquewhite;
+  color: black;
+}
+/*FLOATS
+.box-two {
+  float: left;
+  margin-left: 5px;
+  width: 240px;
+}
+.box-three {
+  float: right;
+  width: 240px;
+}
+*/
+/* .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+} */
+/* .box-two {
+  display: flex;
+  align-content: space-between;
+} */
+.price-free {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+.cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  align-items: center;
+}
+h1 {
+  grid-column: 1 / -1;
+}
+.add-button {
+  grid-column: 1 / -1;
+}
